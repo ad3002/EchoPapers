@@ -47,8 +47,6 @@ If you see a captcha, you need to solve it manually. After that, the script will
 
 The dataset contains the following fields:
 
-The dataset contains the following fields:
-
 1. `data_cid`: A unique identifier for the research paper.
 2. `title`: The title of the research paper.
 3. `authors`: The authors of the research paper.
