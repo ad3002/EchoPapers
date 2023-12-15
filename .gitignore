@@ -158,3 +158,9 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+proxies.txt
+cases*
+EchoPapers/downloaded_files/proxy_ext_dir/manifest.json
+EchoPapers/downloaded_files/proxy_ext_dir/background.js
+EchoPapers/downloaded_files/driver_fixing.lock
