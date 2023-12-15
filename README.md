@@ -14,6 +14,8 @@ To use tools you need working proxy. You can use [Webshare](https://www.webshare
 ## Installation
 
 ```bash
+pip install EchoRepear
+
 git clone https://github.com/ad3002/EchoPapers.git
 ```
 
