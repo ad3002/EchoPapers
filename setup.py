@@ -16,7 +16,11 @@ setup(
     package_data={"": ["README.md"]},
     python_requires='>=3.6',
     include_package_data=True,
-    scripts=[],
+    scripts=[
+        'EchoPapers/scholar_scraper.py',
+        'EchoPapers/scholar_parser.py',
+        'EchoPapers/scholar_citing.py'
+    ],
     license="MIT",
     url='https://github.com/ad3002/EchoPapers',
     author='Aleksey Komissarov',

@@ -13,10 +13,18 @@ To use tools you need working proxy. You can use [Webshare](https://www.webshare
 
 ## Installation
 
-```bash
-pip install EchoRepear
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install EchoPaper.
 
-git clone https://github.com/ad3002/EchoPapers.git
+```bash
+pip install EchoPaper
+```
+
+Or you can install from source:
+
+```
+git clone https://github.com/ad3002/EchoPaper.git
+cd EchoPaper
+python setup.py install
 ```
 
 ## Usage
@@ -34,3 +42,26 @@ python3 scholar_citing.py -i ~/cases/repeatscout.tsv -o ~/cases/repeatscout_citi
 Don't use without proxy. Google will ban you by IP address.
 
 If you see a captcha, you need to solve it manually. After that, the script will continue to work when you press Enter twice in command line.
+
+## Dataset description
+
+The dataset contains the following fields:
+
+The dataset contains the following fields:
+
+1. `data_cid`: A unique identifier for the research paper.
+2. `title`: The title of the research paper.
+3. `authors`: The authors of the research paper.
+4. `journal`: The journal in which the research paper was published.
+5. `year`: The year the research paper was published.
+6. `publication_info`: Additional publication information.
+7. `summary`: A summary of the research paper.
+8. `citation_count`: The number of times the research paper has been cited.
+9. `related_articles_url`: A URL to related articles.
+10. `all_versions_url`: A URL to all versions of the research paper.
+11. `id2author`: A mapping of author IDs to author names.
+12. `full_link`: A link to the full text of the research paper.
+13. `pdf_link`: A link to a PDF version of the research paper.
+14. `html_link`: A link to an HTML version of the research paper.
+15. `citation_url`: A URL to the citations of the research paper.
+16. `cite_link`: A link to cite the research paper.
